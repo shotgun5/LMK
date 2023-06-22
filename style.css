@@ -47,7 +47,7 @@ https://matchthemes.com
 	--extra-color1: #E1EDF0;
 	--extra-color2: #19303E;
 	--menu-normal-color: #ffffff;
-	--menu-hover-color: #BC8D4B;
+	--menu-hover-color: #000;
 	--submenu-background-color: #252525;
 	--submenu-normal-color: #ffffff;	
 	--submenu-hover-color: #BC8D4B;
@@ -789,7 +789,7 @@ a.social-skype:hover {
 }
 
 .nav-bkg1 {
-	background: var(--headings-color);
+	background: #fbc7d7;
 	padding-bottom: 8px;
 	position: fixed;
 	top:0;
@@ -1282,7 +1282,7 @@ vertical-align: middle;
 
 .slider-img:before {
 	content: '';
-	background: rgba(25, 32, 46, 0.3);
+	background: rgba(25, 32, 46, 0.1);
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1296,7 +1296,9 @@ vertical-align: middle;
 	top: 50%;
 	right: 0;
 	text-align: center;
-	color: #ffffff;
+	color: #000;
+	font-size: 24px;
+	font-weight: bold;
 	padding: 0 56px;
 	z-index: 2;
 	-ms-transform: translateY(-50%);
@@ -1310,7 +1312,7 @@ vertical-align: middle;
 	font-size: 108px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	color: #ffffff;
+	color: #000;
 }
 
 .slider-caption .view-more {
@@ -1558,6 +1560,7 @@ transform: translateX(-50%) translateY(-50%);
 
 .small-feature-desc h5 {
 	text-transform: uppercase;
+	line-height: 2;
 }
 
 .title-headline {
